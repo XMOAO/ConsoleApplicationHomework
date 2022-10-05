@@ -2,16 +2,13 @@
 //
 
 #include <stdio.h>
-#define price 32
+
 void main()
 {
-    int num, total;
-    num = 10;
-    total = num * price;
-    printf("total = %d\n", total);
+    unsigned short a;
+    a = -1;
+    printf("%u\n", a);
 
-
-    
 }
 
 
