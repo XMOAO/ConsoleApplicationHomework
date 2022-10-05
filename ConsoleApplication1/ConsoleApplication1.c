@@ -5,9 +5,15 @@
 
 void main()
 {
-    unsigned short a;
-    a = -1;
-    printf("%u\n", a);
+    char c, d;
+    c = '1';
+    d = 128;
+
+
+    printf("%d\n", c + 1);
+    printf("%c\n", c + 1);
+    printf("%c\n", d);
+    printf("%d\n", d);
 
 }
 
